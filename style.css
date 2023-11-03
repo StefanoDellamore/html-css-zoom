@@ -1,5 +1,49 @@
+/* general */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+
+main {
+    height: calc(100vh / 100px);
+    background-color: black;
+}
+
+/* footer {
+    height: 100px;
+    background-color: yellowgreen;
+} */
+
+
+/* main */
+
+.container-main {
+    height: 25px;
+    background-color: green;
+}
+
+.container-main-top {
+    justify-content: flex-end;
+}
+
+.container-speackerview {
+    margin-top: 5px;
+    height: 15px;
+    width: 50px;
+    background-color: red;  
+}
+
+.container-screen {
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 15px;
+    width: 15px;
+    background-color: blue;  
 }
