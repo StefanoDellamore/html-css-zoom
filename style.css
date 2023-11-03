@@ -11,7 +11,7 @@
 }
 
 
-main {
+.container-main {
     height: calc(100vh - 50px);
     background-color: aqua;
 }
@@ -24,7 +24,7 @@ footer {
 /* main */
 /* main-top */
 
-.container-main {
+.container-main-top {
     height: 25px;
     background-color: green;
 }
@@ -51,15 +51,12 @@ footer {
 /* main-bottom */
 
 .container-main-bottom {
-    position: relative;
-    height: calc (100% / 7 -);
-    width: calc();
-    background-color: brown;
+    flex-wrap: wrap;
 }
-.camera {
-    position: absolute;
-    width: 330px;
-    height: calc(100vh / 100px) ;
-    background-color: black;
-    
+
+.cameras {
+    margin: 10px;
+    height: calc((100% / 5) - 20px);
+    width: calc((100% / 7) - 20px);
+    background-color: yellowgreen;
 }
