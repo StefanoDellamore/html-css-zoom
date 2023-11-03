@@ -12,17 +12,17 @@
 
 
 main {
-    height: calc(100vh / 100px);
+    height: calc(100vh - 50px);
+    background-color: aqua;
+}
+
+footer {
+    height: 50px;
     background-color: black;
 }
 
-/* footer {
-    height: 100px;
-    background-color: yellowgreen;
-} */
-
-
 /* main */
+/* main-top */
 
 .container-main {
     height: 25px;
@@ -46,4 +46,20 @@ main {
     height: 15px;
     width: 15px;
     background-color: blue;  
+}
+
+/* main-bottom */
+
+.container-main-bottom {
+    position: relative;
+    height: calc (100% / 7 -);
+    width: calc();
+    background-color: brown;
+}
+.camera {
+    position: absolute;
+    width: 330px;
+    height: calc(100vh / 100px) ;
+    background-color: black;
+    
 }
